@@ -1,0 +1,103 @@
+html,body,.login {
+    height: 100%;
+}
+
+.login-header{
+    border:solid 1px black;background-color: #3A5795;height:15%;
+}
+
+input {
+    color:black!important;
+}
+
+.login-header img {
+    height: 90px;
+}
+
+.login-header form{
+    float: right;
+    display: inline;
+    color: white;
+    height: 100%;
+    width: 40%;
+
+}
+
+.login-header form div{
+    width: 40%;
+    float: right;
+    right: 15%;
+    bottom: 65%;
+    position: relative;
+}
+.login-signup input[type=text],.login-signup input[type=password]{
+    margin-top: 20px;
+    height: 40px;
+    width:50%;
+    border-radius: 3px;
+    border-style: none;
+}
+
+
+.login-header form div:first-child{
+    top:10%;
+    left:10%;
+    float: none;
+}
+.login-header form div:last-child{
+    float: right;
+    right: 15%;
+    bottom: 65%;
+    position: relative;
+
+}
+
+.login-header form button{
+    float: right;
+    left: 30%;
+    bottom: 40%;
+    position: relative;
+}
+
+
+
+.login-body {
+    background-color: #EDF0F5;height: 90%;width: 100%;float: left;
+}
+.login-connect{
+    width: 60%;float: left;
+    height: 80%;
+}
+.login-connect img {
+    width:100%;
+    height:100%;
+    top:10%;
+    left: 5%;
+    position: relative;
+}
+
+.login-signup {
+    width: 40%;
+    margin-left: 70%;
+    height:100%;
+    top: 4%;
+    position: relative;
+}
+
+
+
+.login-signup button{
+
+    font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+    background-color: #5D9149;
+    padding: 5px 100px;
+    border-style: none;
+    margin-top: 5%;
+}
+
+.male-female {
+    top:20px;
+    position: relative;
+}
+
+
